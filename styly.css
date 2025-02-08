@@ -1,0 +1,67 @@
+.novinky img {
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .novinky img:hover {
+    filter: brightness(50%);
+  }
+
+  .custom-carousel {
+    position: relative;
+    width: 90%;
+    max-width: 900px;
+    height: 350px;
+    perspective: 1000px;
+    overflow: hidden;
+}
+
+.custom-carousel-track {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transition: transform 0.5s ease;
+    transform-style: preserve-3d;
+}
+
+.custom-carousel-item {
+    flex: 0 0 auto;
+    width: 240px;
+    height: 320px;
+    background: #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform-origin: center;
+    position: absolute;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.custom-carousel-item img {
+    width: 240px;
+    height: 320px;
+    object-fit: cover;
+}
+
+.custom-carousel-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.custom-carousel-button {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.custom-carousel-item a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
