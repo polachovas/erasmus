@@ -24,13 +24,57 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item mx-3">
-              <a class="nav-link" aria-current="page" href="koncerty.html">PRODUKTY</a>
+              <a class="nav-link" aria-current="page" href="katalog.html">PRODUKTY</a>
             </li>
             <li class="nav-item mx-3">
               <a class="nav-link" href="diskografie.html">NOVINKY</a>
             </li>
             <li class="nav-item mx-3">
               <a class="nav-link" href="biografie.html">PODPORA</a>
+            </li>
+          </ul>
+        </div>
+        <div class="dropstart d-none d-md-block">
+          <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="images/shopping-cart-icon-md.png" alt="Dropdown Icon" class="img-fluid"
+              style="max-width: 30px;">
+          </button>
+          <ul class="dropdown-menu p-4" style="width: 280px;">
+            <h3>Váš košík</h3>
+            <p>Máte 3 produkty v košíku</p>
+            <hr class="my-2">
+            <li>
+              <div class="d-flex align-items-center my-2">
+                <img src="images/cs2.jpg" width="35" height="60" class="mx-2" alt="cs">
+                <div>
+                  <p class="mb-0">Counter-Strike 2</p>
+                  <p class="mb-0"><span class="text-primary">Free</span></p>
+                </div>
+              </div>
+            </li>
+            <hr class="my-2">
+            <li>
+              <div class="d-flex align-items-center my-2">
+                <img src="images/Helldivers2cover.png" width="35" height="60" class="mx-2" alt="hd">
+                <div>
+                  <p class="mb-0">HELLDIVERS™ 2</p>
+                  <p class="mb-0"><span class="text-primary">39,99€</span></p>
+                </div>
+              </div>
+            </li>
+            <hr class="my-2">
+            <li>
+              <div class="d-flex align-items-center my-2">
+                <img src="images/Phasmophobia.webp" width="35" height="60" class="mx-2" alt="phasma">
+                <div>
+                  <p class="mb-0">Phasmophobia</p>
+                  <p class="mb-0"><span class="text-primary">19,50€</span></p>
+                </div>
+              </div>
+            </li>
+            <hr class="my-2">
+            <li id="kosik_button2" class="mt-4">
+              <a class="text-light" href="kosik.html">Pokračovat do košíku -></a>
             </li>
           </ul>
         </div>
@@ -65,88 +109,55 @@
     </div>
   </header>
 
-  <section class="novinky">
-    <h1 class="fw-bold text-center m-5">Novinky na trhu</h1>
-  <div class="container">
-    <div class="row d-flex justify-content-center">
-      <div class="col-md-4">
-        <img src="images/amd_novivnky.jpg" class="img-fluid" alt="">
-        <p class="fw-bold fs-4 text-center">AMD Radeon RX 8000 Series</p>
-      </div>
-      <div class="col-md-4">
-        <img src="images/nvidia_novinky.jpeg" class="img-fluid" alt="">
-        <p class="fw-bold fs-4 text-center">NVIDIA GeForce RTX 50 Series</p>
-      </div>
-      <div class="col-md-4">
-        <img src="images/arc_novinky.png" class="img-fluid" alt="">
-        <p class="fw-bold fs-4 text-center">Intel Arc Battlemage</p>
-      </div>
-    </div>
-  </div>
-  </section>
-
-  <section class="katalog">
-    <h1 class="fw-bold text-center m-5">Vyber si svůj výkon</h1>
-      <div class="container">
-        <div class="row d-flex justify-content-center">
-          <div class="col-md-4 my-4">
-            <div class="card d-flex">
-              <img src="images/nvidia_cc.jpg" class="h-100" alt="...">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 my-4">
-            <div class="card">
-              <img src="images/rx7800_Cc.jpg" class="h-100" alt="...">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 my-4">
-            <div class="card">
-              <img src="images/nvidiasuper_cc.jpg" class="h-100" alt="...">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 my-4">
-            <div class="card">
-              <img src="images/rx7900_cc.jpeg" class="h-100" alt="...">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 my-4">
-            <div class="card">
-              <img src="images/arc_cc.jpg" class="h-100" alt="...">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 my-4">
-            <div class="card">
-              <img src="images/nitro_cc.jpg" class="h-100" alt="...">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
+  <section class="informace bg-dark">
+    <div class="container text-light">
+      <h2 class="text-center py-4">Vítáme vás na Graphix - Váš zdroj pro grafické karty a novinky!</h2>
+      <div class="row d-flex justify-content-around pb-4">
+        <div class="col-md-3">
+          <p>Graphix je nová společnost zaměřená na prodej grafických karet od NVIDIA, AMD a Intel. Nabízíme špičkové modely
+            pro gaming, tvorbu obsahu i profesionální práci.</p>
+        </div>
+        <div class="col-md-3">
+          <p>Kromě prodeje sledujeme novinky a trendy v oblasti hardware. Na našem webu najdete aktuality, recenze,
+            benchmarky a tipy na nejlepší výběr.</p>
+        </div>
+        <div class="col-md-3">
+          <p>S Graphix nezmeškáte žádnou důležitou novinku ani příležitost k vylepšení vašeho PC. Navštivte naši nabídku a
+            objevte svět grafických karet s Graphix!</p>
         </div>
       </div>
+    </div>
   </section>
 
+  <section class="novinky">
+    <h1 class="fw-bold text-center m-5">Novinky na trhu</h1>
+    <div class="container">
+      <div class="row d-flex justify-content-center mb-5">
+        <div class="col-md-4">
+          <img src="images/amd_novivnky.jpg" class="img-fluid" alt="">
+          <p class="fw-bold fs-4 text-center">AMD Radeon RX 8000 Series</p>
+        </div>
+        <div class="col-md-4">
+          <img src="images/nvidia_novinky.jpeg" class="img-fluid" alt="">
+          <p class="fw-bold fs-4 text-center">NVIDIA GeForce RTX 50 Series</p>
+        </div>
+        <div class="col-md-4">
+          <img src="images/arc_novinky.png" class="img-fluid" alt="">
+          <p class="fw-bold fs-4 text-center">Intel Arc Battlemage</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+    <a href="katalog.html"><button type="button" class="btn btn-primary fs-2">Pokračovat do katalogu</button></a>
+    </div>
+  </section>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 
-  
+
 </body>
 
 </html>
