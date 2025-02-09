@@ -1,12 +1,12 @@
 .novinky img {
     transition: all 0.2s ease-in-out;
-  }
-  
-  .novinky img:hover {
-    filter: brightness(50%);
-  }
+}
 
-  .custom-carousel {
+.novinky img:hover {
+    filter: brightness(50%);
+}
+
+.custom-carousel {
     position: relative;
     width: 90%;
     max-width: 900px;
@@ -64,4 +64,72 @@
     display: block;
     width: 100%;
     height: 100%;
+}
+
+footer {
+    background-color: #1a1a1a;
+    padding-top: 0.1%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+}
+
+footer h3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+footer h4 {
+    padding: 0;
+}
+
+.texty {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.btn-secondary {
+    width: 200px;
+}
+
+body {
+    transition: background-color 0.3s;
+}
+.sidebar {
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #ffffff;
+    overflow: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+    z-index: 1000;
+}
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    cursor: pointer;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 999;
 }
