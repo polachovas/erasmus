@@ -147,3 +147,16 @@ body {
 #pocitadlo1 {
     width: 40px;
 }
+
+#prodejnakolonka,
+#zasilkovnakolonka,
+#domukolonka,
+#holubkolonka,
+#applepay,
+#paypal,
+#banprevod,
+#googlepay
+{background-color: #dadada;
+ height: 150px;}
+
+ #bank-form {background-color: #dadada;}
