@@ -1,3 +1,40 @@
+.roboto-condensed {
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+.exo-2 {
+    font-family: "Exo 2", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+p {
+    font-family: "Roboto Condensed", serif;
+}
+
+label {
+    font-family: "Roboto Condensed", serif;
+}
+
+h1 {
+    font-family: "Exo 2", serif;
+}
+
+h2 {
+    font-family: "Exo 2", serif;
+}
+
+h3 {
+    font-family: "Exo 2", serif;
+}
+
+li {
+    font-family: "Roboto Condensed", serif;
+}
+
+
 .novinky img {
     transition: all 0.2s ease-in-out;
 }
@@ -67,9 +104,9 @@
 }
 
 footer {
-    background-color: #1a1a1a;
+    background-color: #e9e9e9;
     padding-top: 0.1%;
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     height: 250px;
