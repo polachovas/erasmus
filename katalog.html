@@ -34,6 +34,51 @@
                             <a class="nav-link" href="biografie.html">PODPORA</a>
                         </li>
                     </ul>
+                    <div class="dropdown d-md-none d-sm-block">
+                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img src="images/shopping-cart-icon-md.png" alt="Dropdown Icon" class="img-fluid"
+                            style="max-width: 30px;">
+                        </button>
+                        <ul class="dropdown-menu p-4" style="width: 280px;">
+                          <h3>Váš košík</h3>
+                          <p>Máte 1 produkt v košíku</p>
+                          <hr class="my-2">
+                          <li>
+                            <div class="d-flex align-items-center my-2">
+                              <img src="images/nitro_kosik.jpg" width="60" class="mx-2" alt="cs2">
+                              <div>
+                                <p class="mb-0">SAPPHIRE NITRO+ Radeon RX 7700 XT</p>
+                                <p class="mb-0"><span class="text-primary">12.690 Kč</span></p>
+                              </div>
+                            </div>
+                          </li>
+                          <li id="kosik_button" class="mt-4">
+                            <a href="kosik.html">Pokračovat do košíku -></a>
+                          </li>
+                        </ul>
+                      </div>
+                    <div class="dropstart d-none d-md-block">
+                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img src="images/shopping-cart-icon-md.png" alt="Dropdown Icon" class="img-fluid" style="max-width: 30px;">
+                        </button>
+                        <ul class="dropdown-menu p-4" style="width: 280px;">
+                          <h3>Váš košík</h3>
+                          <p>Máte 1 produkt v košíku</p>
+                          <hr class="my-2">
+                          <li>
+                            <div class="d-flex align-items-center my-2">
+                              <img src="images/nitro_kosik.jpg" width="60" class="mx-2" alt="cs">
+                              <div>
+                                <p class="mb-0">SAPPHIRE NITRO+ Radeon RX 7700 XT</p>
+                                <p class="mb-0"><span class="text-primary">12.690 Kč</span></p>
+                              </div>
+                            </div>
+                          </li>
+                          <li id="kosik_button" class="mt-4">
+                            <a href="kosik.html">Pokračovat do košíku -></a>
+                          </li>
+                        </ul>
+                      </div>
                     <div class="d-sm-block d-md-none d-flex flex-column mt-4">
                         <div id="cudliky1">
                             <h2>Řazení</h2>
@@ -127,6 +172,7 @@
                         </div>
                     </div>
                 </div>
+                
             </div>
         </nav>
 
@@ -245,10 +291,9 @@
                                         <img src="images/nvidia_novinky.jpeg" class="card-img-top" alt="...">
                                         <div class="card-body d-flex flex-column">
                                             <p class="card-title fs-3">Nvidia GeForce RTX 5070</p>
-                                            <p class="card-text d-none d-lg-block">CS2 je moderní verzí populární
-                                                střílečky Counter-Strike,
-                                                která
-                                                přináší vylepšenou grafiku, nové herní mechaniky a mapy.</p>
+                                            <p class="card-text d-none d-lg-block"> Výkonná grafická karta s nejnovější
+                                                architekturou, která nabízí skvělý výkon pro hraní ve vysokém rozlišení
+                                                a ray tracing.</p>
                                             <div class="row mt-auto">
                                                 <div class="col-md-6 d-flex align-items-center">
                                                     <p class="m-0">Již od 16.449 Kč<br>Zatím nedostupné</p>
@@ -265,10 +310,9 @@
                                         <img src="images/gb_5080_k.jpg" class="card-img-top" alt="...">
                                         <div class="card-body d-flex flex-column">
                                             <p class="card-title fs-3">GIGABYTE GeForce RTX 5080 AERO</p>
-                                            <p class="card-text d-none d-lg-block">Kingdom Come: Deliverance II je
-                                                historická RPG, která
-                                                pokračuje
-                                                v příběhu středověkého dobrodruha v realistickém otevřeném světě.
+                                            <p class="card-text d-none d-lg-block">Prémiová edice s elegantním designem,
+                                                vysokým výkonem a efektivním chlazením pro náročné hráče i tvůrce
+                                                obsahu.
                                             </p>
                                             <div class="row mt-auto">
                                                 <div class="col-md-6 d-flex align-items-center">
@@ -286,9 +330,9 @@
                                         <img src="images/6900xt.jpg" class="card-img-top" alt="...">
                                         <div class="card-body d-flex flex-column">
                                             <p class="card-title fs-3">MSI Radeon RX 6900 XT GAMING X TRIO</p>
-                                            <p class="card-text d-none d-lg-block">Grand Theft Auto V je akční
-                                                adventura, která nabízí otevřený
-                                                svět plný misí, krádeží a interaktivních aktivit v městě Los Santos.
+                                            <p class="card-text d-none d-lg-block">Výkonná herní grafická karta s
+                                                trojitým chlazením, která poskytuje vysoké FPS i v nejnáročnějších
+                                                hrách.
                                             </p>
                                             <div class="row mt-auto">
                                                 <div class="col-md-6 d-flex align-items-center">
@@ -306,10 +350,8 @@
                                         <img src="images/rx7800_Cc.jpg" class="card-img-top" alt="...">
                                         <div class="card-body d-flex flex-column">
                                             <p class="card-title fs-3">SAPPHIRE NITRO+ Radeon RX 7800 XT</p>
-                                            <p class="card-text d-none d-lg-block">Dota 2 je strategická hra, kde se
-                                                dva týmy po pěti hráčích
-                                                snaží zničit nepřátelskou základnu, využívající unikátní hrdiny a
-                                                taktické schopnosti.</p>
+                                            <p class="card-text d-none d-lg-block">Moderní karta s pokročilým chlazením
+                                                a vysokým výkonem, ideální pro 1440p a 4K hraní.</p>
                                             <div class="row mt-auto">
                                                 <div class="col-md-6 d-flex align-items-center">
                                                     <p class="m-0">Již od 14.890 Kč</p>
@@ -326,9 +368,8 @@
                                         <img src="images/rx7900_cc.jpeg" class="card-img-top" alt="...">
                                         <div class="card-body d-flex flex-column">
                                             <p class="card-title fs-3">ASUS TUF GAMING Radeon RX 7900 XT</p>
-                                            <p class="card-text d-none d-lg-block">Astrometica je sci-fi hra, která
-                                                kombinuje prvky vesmírného
-                                                průzkumu, taktiky a rozvoj postavy v exotických galaxiích.</p>
+                                            <p class="card-text d-none d-lg-block"> Odolná a výkonná grafická karta
+                                                navržená pro dlouhodobou stabilitu a plynulý herní zážitek.</p>
                                             <div class="row mt-auto">
                                                 <div class="col-md-6 d-flex align-items-center">
                                                     <p class="m-0">Již od 23.690 Kč</p>
@@ -345,9 +386,9 @@
                                         <img src="images/arc_cc.jpg" class="card-img-top" alt="...">
                                         <div class="card-body d-flex flex-column">
                                             <p class="card-title fs-3">Intel Arc A770</p>
-                                            <p class="card-text d-none d-lg-block">Marvel Rivals je týmová
-                                                střílečka, kde hráči bojují jako
-                                                superhrdinové z Marvel univerza v dynamických 6v6 soubojích.</p>
+                                            <p class="card-text d-none d-lg-block">Inovativní grafická karta od Intelu s
+                                                podporou moderních technologií a optimalizací pro DirectX 12 a AI
+                                                akceleraci.</p>
                                             <div class="row mt-auto">
                                                 <div class="col-md-6 d-flex align-items-center">
                                                     <p class="m-0">Již od 21.190 Kč</p>
@@ -365,10 +406,8 @@
                                         <div class="card-body d-flex flex-column">
                                             <p class="card-title fs-3">GIGABYTE GeForce RTX 4070 Ti SUPER WINDFORCE
                                             </p>
-                                            <p class="card-text d-none d-lg-block">Balatro je logická hra, která
-                                                kombinuje prvky karetní
-                                                strategie
-                                                a vysoce taktické hratelnosti v temném fantasy světě.</p>
+                                            <p class="card-text d-none d-lg-block">Výkonná karta s efektivním chlazením
+                                                a špičkovými technologiemi pro ray tracing a AI upscaling.</p>
                                             <div class="row mt-auto">
                                                 <div class="col-md-6 d-flex align-items-center">
                                                     <p class="m-0">Již od 23.390 Kč</p>
@@ -385,16 +424,13 @@
                                         <img src="images/nitro_cc.jpg" class="card-img-top" alt="...">
                                         <div class="card-body d-flex flex-column">
                                             <p class="card-title fs-3">SAPPHIRE NITRO+ Radeon RX 7700 XT</p>
-                                            <p class="card-text d-none d-lg-block">Apex Legends™ je battle royale
-                                                hra, kde týmy hrdinů s
-                                                unikátními schopnostmi bojují o přežití na nehostinné mapě plné
-                                                nebezpečí.</p>
+                                            <p class="card-text d-none d-lg-block">Skvělá volba pro hráče hledající
+                                                vysoký výkon a kvalitní chlazení za rozumnou cenu.</p>
                                             <div class="row mt-auto">
                                                 <div class="col-md-6 d-flex align-items-center">
                                                     <p class="m-0">Již od 12.690 Kč</p>
                                                 </div>
-                                                <div class="col-md-6"><a href="#" class="btn btn-primary w-100">Více
-                                                        o hře</a></div>
+                                                <div class="col-md-6"><a href="#" class="btn btn-primary w-100">Více</a></div>
                                             </div>
                                         </div>
                                     </div>
